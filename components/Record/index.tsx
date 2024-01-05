@@ -171,7 +171,7 @@ class Record extends Component<Props, State> {
                 width: 75,
                 height: 75,
                 borderRadius: 75,
-                backgroundColor: "#6E01EF",
+                backgroundColor: "#6E0",
                 alignItems: "center",
                 justifyContent: "center",
               }}
@@ -213,7 +213,7 @@ class Record extends Component<Props, State> {
                 justifyContent: "center",
               }}
             >
-              <FontAwesome name="microphone" size={24} color="#fff" />
+              <FontAwesome name="microphone" size={34} color="#fff" />
             </View>
           </TouchableHighlight>
         )}

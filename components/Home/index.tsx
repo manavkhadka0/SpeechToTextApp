@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, SetStateAction } from "react";
 import {
   View,
   Text,
@@ -69,7 +69,7 @@ export default function Home() {
 
       <View style={styles.voiceContainer}>
         <Record
-          onSpeechEnd={(value) => {
+          onSpeechEnd={(value: SetStateAction<string>[]) => {
             setSpeechText(value[0]);
           }}
           onSpeechStart={() => {
